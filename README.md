@@ -1,4 +1,4 @@
-![frame_firefox_mac_dark (1)]([https://user-images.githubusercontent.com/80502833/187230764-e1bb2b44-c221-4529-ba73-a2261e636372.png](https://media.licdn.com/dms/image/D4E12AQG_0J69ZJoNwQ/article-inline_image-shrink_1500_2232/0/1715791232548?e=1721260800&v=beta&t=iEbeInVFJJLOTKe52fVTXZipTVTIcYG71wjdWg-rbNs))
+![frame_firefox_mac_dark (1)]([https://user-images.githubusercontent.com/80502833/187230764-e1bb2b44-c221-4529-ba73-a2261e636372.png](https://miro.medium.com/v2/resize:fit:720/format:webp/1*HJnvhe59rDutY_hmxopaEQ.png))
 
 <h1 align="center">Car Rental Website Project</h1>  
 
@@ -133,5 +133,8 @@ This is a project for a car rental website. It is a project for the College Mini
 Give a ⭐️ if this project helped you!
 
 ***
+
+
+
 
 
