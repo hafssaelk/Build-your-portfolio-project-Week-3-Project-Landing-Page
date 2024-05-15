@@ -8,21 +8,14 @@ This is a project for a car rental website. It is a project.
 
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
-- [Requirements](#requirements)
 - [Installation](#installation)
-- [Database](#database)
-- [Table](#table)
-- [Car Listing Page](#car-listing-page)
-- [User Story](#user-story)
-- [Admin Page](#admin-page)
-- [Project Report](#project-report)
-- [License](#license)
-- [Demo](#demo)
-- [Authors](#authors)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Related Projects](#RelatedProjects)
+- [Licensing](#Licensing)
+- [Resources](#Resources)
 - [Show your support](#show-your-support)
 
-
-## Introduction
 
 ## Introduction
 The Rental Car Management System is designed to streamline operations for rental car businesses, improving efficiency and enhancing customer service. This web-based application allows users to manage vehicle inventory, track rentals, schedule maintenance, and view comprehensive reports.
@@ -30,8 +23,6 @@ The Rental Car Management System is designed to streamline operations for rental
 **Live Demo:** [Rental Car Management System Live](https://www.youtube.com/watch?v=O4VDaWtRqzs)
 **Blog Post:** [Building a Rental Car Management System](https://medium.com/@hafssa.elkoi0/my-journey-building-a-rental-car-management-system-7d038bec6b1d)
 **Author LinkedIn:** [May LinkedIn](https://www.linkedin.com/in/hafssa-el-1631b7285/)
-
-##  Installation
 
 ## Installation
 To set up the Rental Car Management System on your local machine, follow these steps:
