@@ -1,52 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* General reset for margin and padding across all elements */
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
+/* Root custom properties (variables) for consistent theming */
 :root {
   --main-bg-color: rgba(241, 243, 255, 1);
   --secondary-bg-color: rgb(107, 46, 134);
   --card-border-color: rgba(208, 208, 208, 1);
-  --button-primary-color:rgba(92, 184, 95, 1);
+  --button-primary-color: rgba(92, 184, 95, 1);
 }
 
+/* Standard paragraph styling */
 p {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
 }
 
+/* Navbar styling with bold font and custom background color */
 nav.navbar {
   font-weight: bold;
   background-color: var(--main-bg-color);
 }
 
+/* Navbar item spacing */
 .nav-item {
   text-decoration: none;
   margin-right: 32px;
 }
 
+/* Navbar link styling with color and weight */
 .nav-item .nav-link {
   font-weight: 400;
   color: black;
 }
 
+/* Navbar link hover effect */
 .nav-link:hover {
   text-decoration: underline;
 }
 
+/* Main section background styling */
 .main-section {
   position: relative;
   background-color: var(--main-bg-color);
 }
 
+/* Background color for the 'our-section' */
 .our-section {
   background-color: white;
 }
 
+/* Styling for the car image background in the main section */
 .bg-car {
   position: absolute;
   background-color: var(--secondary-bg-color);
@@ -57,18 +67,22 @@ nav.navbar {
   border-radius: 100px 0 0 0;
 }
 
+/* Z-index for the car image to ensure it is on top */
 #img-car {
-  z-index: 1
+  z-index: 1;
 }
 
+/* Margin left for content inside 'our-section' */
 .content-our-section {
   margin-left: 80px;
 }
 
+/* Styling for lists, removing bullet points */
 ul {
   list-style: none;
 }
 
+/* Flexbox styling for list items in 'our-section' */
 .item-list {
   display: flex;
   align-items: center;
@@ -76,6 +90,7 @@ ul {
   margin-top: 20px;
 }
 
+/* Custom icon before each item in the list */
 .item-list:before {
   content: "";
   background-image: url("https://i.ibb.co/DwWFsZQ/icon-list.png");
@@ -85,11 +100,12 @@ ul {
   margin-right: 20px;
 }
 
+/* Flexbox styling for cards in 'why-us-section' */
 .card-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height:300px;
+  min-height: 300px;
   height: 100%;
   width: 100%;
   margin-top: 10px;
@@ -98,41 +114,44 @@ ul {
   padding: 24px;
 }
 
+/* Card title styling */
 .card-title {
   font-size: 16px;
   margin-top: 16px;
   font-weight: bold;
 }
 
+/* Card description styling */
 .card-desc {
   font-size: 14px;
   margin-top: 16px;
 }
 
+/* Styling for icons in cards */
 .icon-card {
   width: 32px;
   height: 32px;
   margin: 10px 0 0 0;
 }
 
+/* Centered text styling for testimonials */
 .text-testimonial {
   text-align: center;
   padding: 10px 0 10px 0;
 }
 
+/* Margin for testimonial tagline */
 .text-testimonial .tagline-testimonial {
   margin-top: 16px;
 }
 
-.card-user-content {
-  margin-left: 20px;
-}
-
+/* Styling for the rate star images */
 .rate-star {
   width: 16px;
   height: 16px;
 }
 
+/* Testimonial card styling */
 #card-testimonial {
   display: flex;
   align-items: center;
@@ -141,6 +160,7 @@ ul {
   border-radius: 10px;
 }
 
+/* Styling for navigation buttons in testimonials */
 .prev-button,
 .next-button {
   display: flex;
@@ -155,6 +175,7 @@ ul {
   height: 50px;
 }
 
+/* Hover effect for previous and next buttons */
 .prev-button:hover,
 .next-button:hover {
   background-color: var(--button-primary-color);
@@ -162,26 +183,31 @@ ul {
   color: white;
 }
 
+/* Styling for profile images in testimonials */
 #img-profile {
   width: 170px;
   height: 170px;
 }
 
+/* Styling for banner container */
 #banner-container {
   background-color: var(--secondary-bg-color);
   border-radius: 10px;
   padding: 50px;
 }
 
+/* White text color for elements inside banner container */
 #banner-container h1,
 .content-banner {
   color: white;
 }
 
+/* Bold font weight for navigation items */
 .item-navigation {
   font-weight: bold;
 }
 
+/* Styling for copyright logo */
 .logo-copyright {
   background-color: var(--secondary-bg-color);
   width: 100px;
@@ -189,17 +215,20 @@ ul {
   flex-shrink: 0;
 }
 
+/* Icons styling for social media in the footer */
 .icon-socmed {
   width: 32px;
   height: 32px;
   margin-right: 10px;
 }
 
+/* Styling for FAQ section */
 #faq-section {
   padding-bottom: 80px;
   margin-top: 80px;
 }
 
+/* Color styling for social media icons */
 #icon-facebook,
 #icon-instagram,
 #icon-twitter,
@@ -210,13 +239,14 @@ ul {
   margin-right: 20px;
 }
 
+/* Responsive styling for smaller screens */
 @media (max-width: 768px) {
   .main-section {
     margin-top: 20px;
   }
 
   .bg-car {
-    position: absolute;
+    position:absolute;
     background-color: var(--secondary-bg-color);
     height: 40%;
     width: 60%;
@@ -265,6 +295,7 @@ ul {
   }
 }
 
+/* Responsive styling for medium screens */
 @media (max-width: 1200px) {
   .car-img {
     width: 100%;
