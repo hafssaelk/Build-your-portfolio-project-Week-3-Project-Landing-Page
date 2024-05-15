@@ -2,7 +2,7 @@
 
 <h1 align="center">Car Rental Website Project</h1>  
 
-This is a project for a car rental website. It is a project for the College Mini Project.
+This is a project for a car rental website. It is a project.
 
 ## Table of Contents
 
@@ -24,109 +24,50 @@ This is a project for a car rental website. It is a project for the College Mini
 
 ## Introduction
 
-- This is a car rental website project.
-- The purpose of this project is to create a car rental website.
-- The website will have a login page, a car listing page, a car reservation page, and a car return page.
-- The login page will have a username and password input field.
-- The car listing page will have a search bar and a car listing table.
-- The car reservation page will have a car reservation table.
+## Introduction
+The Rental Car Management System is designed to streamline operations for rental car businesses, improving efficiency and enhancing customer service. This web-based application allows users to manage vehicle inventory, track rentals, schedule maintenance, and view comprehensive reports.
 
-## Requirements
-
-- XAMPP is required to run the project.
-- The project will be hosted on a localhost server.
+**Live Demo:** [Rental Car Management System Live](https://www.youtube.com/watch?v=O4VDaWtRqzs)
+**Blog Post:** [Building a Rental Car Management System](https://medium.com/@hafssa.elkoi0/my-journey-building-a-rental-car-management-system-7d038bec6b1d)
+**Author LinkedIn:** [May LinkedIn](https://www.linkedin.com/in/hafssa-el-1631b7285/)
 
 ##  Installation
 
-- Install XAMPP.
-- Open XAMPP and click on the Start button.
-- Clone the project to the root of the XAMPP server.
-- Open the project in XAMPP.
-- Import SQL file from database folder to the XAMPP server.
-- Open Browser and navigate to [localhost:8080](localhost:8080).
-- Hurray! The project is now running.
+## Installation
+To set up the Rental Car Management System on your local machine, follow these steps:
 
-##  Database
+1. Clone the repository:
+   git clone https://github.com/hafssaelk/Build-your-portfolio-project-Week-3-Project-Landing-Page.git
+2. Navigate to the project directory:
+   cd Rental Cars Management
+3. Install dependencies:
+   npm install
 
-- The database is stored in a folder called database.
-- The database is named as carproject.sql.
-- The database is stored in the root of the XAMPP server.
-- The database is imported to the XAMPP server.
-- Database used is MySQL.
-- Database Connection page is named [connection.php](/connection.php).
+## Usage
+To run the Rental Car Management System, execute the following command:
+npm start
+Navigate to `http://localhost:3000` in your web browser to view the app.
 
-## Table
+## Contributing
+Contributions to the Rental Car Management System are welcome! Please follow these steps to contribute:
 
-- The table is named as car.
-- The table has the following columns:
-    - car_id: INTEGER PRIMARY KEY AUTO_INCREMENT
-    - car_make: VARCHAR(255)
-    - car_model: VARCHAR(255)
-    - car_year: INTEGER
-    - car_color: VARCHAR(255)
-    - car_price: INTEGER
-    - car_available: BOOLEAN
-    - car_image: VARCHAR(255)
-    - car_description: VARCHAR(255)
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch-name`).
+6. Create a new Pull Request.
 
-##  Car Listing Page
+## Related Projects
+- [Car Service Scheduler](https://www.getcarmen.com/)
+- [Vehicle Inventory System](https://www.vinsolutions.com/dealership-software/inventory-management/)
 
-- The car listing page will have a search bar and a car listing table.
-- The search bar will have a search button.
-- The search button will search for the car based on the search bar input.
-- The car shown only on the car listing page will be the car that is available.
+## Licensing
+The Rental Car Management System is released under the MIT License. See the [LICENSE](http://example.com/license) file for more details.
 
-## User Story
-
-- As a user, I want to be able to search for a car.
-- As a user, I want to be able to see the car that is available.
-- As a user, I want to be able to reserve a car.
-- As a user, I want to be able to return a car.
-- As a user, I want to be able to see the car that I have reserved.
-- As a user, I want to provide feedback to the car rental website.
-- As a user, I should be able to make payment for the car rental.
-
-## Admin Page
-
-- The admin page will have a car listing table.
-- It has a button to add a new car.
-- The button will open a new page where the admin can add a new car.
-- The admin can add a new car by filling in the form.
-- The admin can also delete a car by clicking the delete button.
-- Admin can view user reservation by clicking the view button.
-- Admin can view user return by clicking the view button.
-- Admin can accept or reject a reservation by clicking the accept or reject button.
-- Admin can return a car by clicking the return button.
-- Admin can delete a reservation by clicking the delete button.
-- Admin can view feedback by clicking the view button.
-
-## Project Report
-
-- The project report is stored in a folder called [report](https://github.com/Varshithvhegde/car_rental_project/raw/main/report/CarProjectFinalReport.pdf).
-- Report consists of the following:
-    - Introduction
-    - Literature Review
-    - Methodology
-    - Result
-    - Conclusion
-    - References
-- The project report is written in Microsoft Word.
-- The project repot has flow chart, ERD, and UML diagram.
-
-##  License
-
-[MIT](https://choosealicense.com/licenses/mit/) © [Varshith Hegde](https://github.com/Varshithvhegde)
-- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Demo
-
-- [Live Deployment](https://carsminiproject.000webhostapp.com/)
-- [Video Demo](https://youtu.be/1Z9Z9Z9Z9Z9)
-
-## Authors 
-
-- [Varshith V Hegde](https://github.com/Varshithvhegde)
-- [Swasthik Jain PM](https://github.com/Swasthik-Jain)
+## Resources
+- [What Your Code Repository Says About You](https://opensource.com/open-organization/17/1/repo-tells-a-story)
+- [Awesome List of READMEs](https://github.com/matiassingers/awesome-readme)
 
 ## Show your support
 
